@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <style>
+         body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Default background color */
+            color: #fff;
+            transition: background-color 0.5s; /* Smooth transition for background color change */
+        }
+
+        nav {
+            background-color: #222;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: background-color 0.5s; /* Smooth transition for background color change */
+        }
+
+        nav img {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+        }
+
+        nav ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff0;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 80px auto 20px; /* Adjust top margin to accommodate fixed navbar */
+            padding: 20px;
+        }
+
+        .section {
+            background-color: #333;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <img src="images/nitish1.jpeg" alt="Nitish">
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="home" class="section">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Nitish Kumar, an Automation engineer based in Darbhanga, Bihar. I have a diploma in Electrical Engineering and specialized training in PLC advanced automation.</p>
+            <p>With a strong foundation in electrical engineering, I have gained expertise in PLC programming, VFD programming, stepper and servo motor control, and HMI designing using platforms such as Delta, Siemens, and Mitsubishi. I am proficient in TIA Portal and Factory IO for automation simulations.</p>
+            <p>My experience extends to troubleshooting HVAC electrical panels, working with AHUs and air washers, and commissioning electrical systems.</p>
+            <h2>Key Skills:</h2>
+            <ul>
+                <li>PLC Programming</li>
+                <li>VFD Programming</li>
+                <li>Stepper and Servo Motor Control</li>
+                <li>HMI Designing (Delta, Siemens, Mitsubishi)</li>
+                <li>TIA Portal</li>
+                <li>Factory IO</li>
+                <li>Communication Protocols</li>
+                <li>HVAC Electrical Panel Troubleshooting</li>
+                <li>Commissioning of Electrical Systems</li>
+            </ul>
+            <h2>Recent Projects:</h2>
+            <p>Here are some of the automation projects I've worked on:</p>
+            <ul>
+                <li>Implemented a PLC-based control system for a manufacturing plant, optimizing production processes and reducing downtime.</li>
+                <li>Designed and programmed HMI interfaces for industrial machinery, improving user interaction and system monitoring.</li>
+                <li>Successfully commissioned electrical panels for HVAC systems, ensuring efficient operation and compliance with safety standards.</li>
+            </ul>
+            <p>If you're seeking an automation engineer with expertise in PLC programming, HMI design, and electrical troubleshooting, I'm here to help. Let's discuss how I can contribute to your projects.</p>
+            <p><a href="#contact" class="cta-button">Get in Touch</a></p>
+        </section>
+        
+        </section>
+
+        <section id="service" class="section">
+            <h1>Services</h1>
+            <p>Here are the services I offer:</p>
+            <ul>
+                <li>Web Design</li>
+                <li>Plc Programming</li>
+                <li>Graphic Design</li>
+                <li>Hmi designing</li>
+                <li>Scada designing (Wincc/Tia portal/Wonderware)</li>
+                <li>Communication Protocols(Modbus/RS485/RS232/Serial communication/BACnet IP/Profibus/Profinet)</li>
+                <li>Security cameras </li>
+                <li>Electrical troubleshooting</li>
+                <li>Panel commissioning</li>
+
+            </ul>
+        </section>
+
+        <section id="about" class="section">
+            <h1>About Us</h1>
+            <p>We are a team of passionate individuals dedicated to delivering high-quality work.</p>
+        </section>
+
+        <section id="project" class="section">
+            <h1>Projects</h1>
+            <p>Check out some of our recent projects:</p>
+            <ul>
+                <li>Project 1: Air washer HMI Designed for Acrex exhibition organized by ISHRAE</li>
+                <li>Project 2: Commisioned a project with Programming of hmi and plc for Ahu's and FCU's in sonipat nahra Flantro india pvt ltd </li>
+                <li>Project 3: Completed shutdown project in Honeywell Rewiring of Ahu electrical Panel</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h1>Contact Us</h1>
+            <p>Feel free to get in touch with us:</p>
+            <ul>
+                <li>Email: Nitishkashyapdbg@gmail.com</li>
+                <li>Phone: 7979775636</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
